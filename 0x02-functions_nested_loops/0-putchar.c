@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * main - print _putchar character
- *
+ * main -  prints _putchar, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-       _putchar puts('_');
-       _putchar puts('p');
-       _putchar puts('u');
-       _putchar puts('t');
-       _putchar puts('c');
-       _putchar puts('h');
-       _putchar puts('a');
-       _putchar puts('r');
-       _putchar puts('\n');
- 
-  return (0);
+        _putchar('_');
+        _putchar('p');
+        _putchar('u');
+        _putchar('t');
+        _putchar('c');
+        _putchar('h');
+        _putchar('a');
+        _putchar('r');
+        _putchar('\n');
+
+        return (0);
 }
 
