@@ -5,7 +5,7 @@
  *
  * Description: Prints the alphabet with _putchar
  * @c: charater
- * Return: void
+ * Return: return 1 for upper case and 0 for else
  */
 
 int _isupper(int c)
