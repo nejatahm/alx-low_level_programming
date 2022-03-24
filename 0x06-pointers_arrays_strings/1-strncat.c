@@ -1,8 +1,4 @@
-
-#include <main.h>
-#include <stdio.h>
-
-
+#include "main.h"
 /**
  * _strncat - concatenates two strings
  * @dest: pointer to the destination string
@@ -24,5 +20,4 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 	return (dest);
-
 }
