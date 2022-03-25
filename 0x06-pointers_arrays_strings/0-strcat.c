@@ -1,21 +1,20 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 /**
- * _strncat - concatenates two strings
+ * _strcat - concatenates two strings
  * @dest: pointer to the destination string
  * @src: pointer to the source string
- * @n: number of bytes to print
  * Return: pointer to the resulting string dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
 	i = 0;
 	for (j = 0; dest[j] != '\0'; j++)
 		;
-	while (src[i] != '\0' && i < n)
+	while (src[i] != '\0')
 	{
 		dest[j + i] = src[i];
 		i++;
