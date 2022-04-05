@@ -26,4 +26,4 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < sizeBuffer; i++)
 		i < s1count ? (p[i] = s1[i]) : (p[i] = s2[i - s1count]);
 	return (p);
-}i
+}
