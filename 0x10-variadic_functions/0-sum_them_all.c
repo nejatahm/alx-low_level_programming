@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "variadic_functions.h"
+
 /**
  * sum_them_all - sum of variadic variable
  * @n:const
